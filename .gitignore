@@ -153,6 +153,22 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.log
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/
+.DS_Store
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
