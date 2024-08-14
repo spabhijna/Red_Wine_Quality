@@ -91,3 +91,5 @@ plt.title('Learning Curves')
 plt.legend(loc='best')
 plt.show()
 
+
+joblib.dump(model, '/Volumes/Code/RedWineQuality/model/LinearRegressionModel.pkl')
