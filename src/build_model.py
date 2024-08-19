@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 import joblib
 
 # load the dataset
-df = pd.read_csv('../Data/Preprocessed_RedWineQuality.csv')
+df = pd.read_csv('../data/Preprocessed_RedWineQuality.csv')
 
 print(df.head())
 
